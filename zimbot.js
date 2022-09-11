@@ -132,7 +132,7 @@ module.exports = ZimBotInc = async (ZimBotInc, m, chatUpdate, store) => {
         const isWelcome = m.isGroup ? dripswelcome.includes(m.chat) : false
 //zim bot inc
 
-const timuu = moment.tz('Africa/Harare').format('HH:mm:ss')
+const timuu = moment.tz('Asia/Kuala_Lumpur').format('HH:mm:ss')
 const hariRaya = new Date('Apr 02, 2022 01:45:00')
 const sekarang = new Date().getTime();
 const Selisih = hariRaya - sekarang;
